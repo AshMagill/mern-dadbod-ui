@@ -261,7 +261,7 @@ function! s:dbui.generate_new_db_entry(db) abort
         \ 'schema_support': schema_support,
         \ 'quote': get(scheme_info, 'quote', 0),
         \ 'default_scheme': get(scheme_info, 'default_scheme', ''),
-        \ 'filetype': "javascript"
+        \ 'filetype': 'javascript'
         \ }
 endfunction
 
